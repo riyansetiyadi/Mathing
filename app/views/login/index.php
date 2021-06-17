@@ -29,17 +29,30 @@
 							</div>
 							<div class="card-body">
 								<form action="<?= BASEURL; ?>/Login/loginPermission" method="post">
-									<label for="username">Username </label>
-									<input type="text" name="username">
-									<label for="password">Password </label>
-									<input type="text" name="password">
-									<div class="remember-me input">
-										<input type="checkbox" name="remember" id="remember">
-										<label for="remember">Remember me</label>
+									<div class="input-group mb-3">
+										<div class="input-group-prepend">
+											<span class="input-group-text"><i class="ti-email"></i></span>
+										</div>
+										<input type="text" class="form-control input-login" placeholder="Alamat email">
 									</div>
-									<button type="submit" name="login">Login</button>
+									<div class="input-group mb-3">
+										<div class="input-group-prepend">
+											<span class="input-group-text"><i class="ti-lock"></i></span>
+										</div>
+										<input type="password" class="form-control input-login"
+											placeholder="Kata sandi">
+									</div>
+									<div class="form-group">
+										<label class="mz-check">
+											<input type="checkbox">
+											<i class="mz-blue"></i>
+											Ingat Selalu
+										</label>
+										<label class="float-right"><a href="">Lupa Sandi?</a></label>
+									</div>
+									<button type="submit" class="btn btn-primary float-right">Masuk <i
+											class="ti-angle-double-right" style="font-size: 12px"></i></button>
 								</form>
-								<a href="<?= BASEURL ?>/Register">Register</a>
 							</div>
 
 						</div>
