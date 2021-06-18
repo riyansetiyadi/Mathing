@@ -54,8 +54,8 @@ class Profile extends Controller {
         session_unset();
         session_destroy();
 
-        setcookie("userId", "", time()-3600, "/Tugas_Akhir_pweb2/mvc/public/");
-        setcookie("username", "", time()-3600, "/Tugas_Akhir_pweb2/mvc/public/");
+        setcookie("userId", "", time()-3600, "/Mathing/");
+        setcookie("username", "", time()-3600, "/Mathing/");
 
         header("location: " . BASEURL . "/login");
         exit;

@@ -33,8 +33,8 @@ class Login extends Controller {
 
             if ( isset($_POST["remember"]) ) {
                 $dataUser = $this->model('User_model')->userLogin($_POST);
-                setcookie('userId', $dataUser['accountID'], time()+600, BASEURL);
-                setcookie('username', $dataUser['username'], time()+600, BASEURL);
+                setcookie('userId', $dataUser['accountID'], time()+600, "/Mathing/");
+                setcookie('username', $dataUser['username'], time()+600, "/Mathing/");
             }
 
             header('Location: ' . BASEURL . '/home');
