@@ -71,6 +71,10 @@ class Profile extends Controller {
             $exp -= $limit;
             $limit *= 2;
         }
-        return $level;
+        return [
+            "level" => $level,
+            "exp" => $exp,
+            "limit" => $limit
+        ];
     }
 }
