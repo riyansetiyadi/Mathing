@@ -1,5 +1,12 @@
+<div class="jarak-navigasi"></div>
 <form action="<?= BASEURL ?>/Operator/pengurangan/<?= $data["difficulty"] ?>" method="POST">
-    <?=$_SESSION['number1']?> - <?=$_SESSION['number2']?>
-    <input type="number" name="answer">
-    <input type="submit" value="Jawab" name="b_answer" id="jawab">
+    <div class="card text-dark bg-warning mb-5 ms-auto me-auto text-center" style="width: 300px;">
+        <div class="card-header">Pengurangan</div>
+        <div class="card-body">
+            <h1 class="mb-4"><?=$_SESSION['number1']?> - <?=$_SESSION['number2']?></h1>
+            <input type="number" name="answer" class="form-control input-answer ms-auto me-auto mb-4">
+            <input type="submit" value="Jawab" name="b_answer" id="jawab" class="btn btn-primary mb-3">
+        </div>
+    </div>
 </form>
+<div class="jarak-navigasi"></div>
