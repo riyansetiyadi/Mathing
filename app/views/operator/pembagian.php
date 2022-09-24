@@ -4,7 +4,7 @@
         <div class="card-header">Pembagian</div>
         <div class="card-body">
             <h1 class="mb-4"><?=$_SESSION['number1']?> / <?=$_SESSION['number2']?></h1>
-            <input type="number" name="answer" class="form-control input-answer ms-auto me-auto mb-4">
+            <input type="number" step=0.001 name="answer" class="form-control input-answer ms-auto me-auto mb-4">
             <input type="submit" value="Jawab" name="b_answer" id="jawab" class="btn btn-primary mb-3">
         </div>
     </div>
