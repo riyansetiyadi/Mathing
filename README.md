@@ -1,6 +1,6 @@
 # mathing
 
-Mathing (Math Think) merupakan aplikasi pembelajaran matematika yang cocok untuk segala usia
+Mathing (Math Think) merupakan aplikasi pembelajaran matematika yang cocok untuk segala usia, Mathing dikerjakan menggunakan framework laravel dengan database sql sudah ada di folder ini.
 
 Kelas : Pemrograman Berbasis Web A <br>
 Kelompok : 27 <br>
