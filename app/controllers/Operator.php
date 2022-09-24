@@ -87,12 +87,14 @@ class Operator extends Controller {
     public function pembagian($difficulty = "Acak")
     {
         if ( isset($_SESSION["number1"]) && isset($_SESSION["number2"]) ) {
-            $result = $_SESSION["number1"] / $_SESSION["number2"];
-            if ( isset($_POST['answer']) ) {
-                if ( round($result, 2) == $_POST['answer'] ) {
-                    $earnExp = $this->countExp("Pembagian", $difficulty);
-                    $this->model("User_model")->addExp($earnExp);
-                    echo '<script>alert("jawaban benar")</script>';
+            if ( $_SESSION["number2"] != 0) {
+                $result = $_SESSION["number1"] / $_SESSION["number2"];
+                if ( isset($_POST['answer']) ) {
+                    if ( round($result, 2) == $_POST['answer'] ) {
+                        $earnExp = $this->countExp("Pembagian", $difficulty);
+                        $this->model("User_model")->addExp($earnExp);
+                        echo '<script>alert("jawaban benar")</script>';
+                    }
                 }
             }
         }        
