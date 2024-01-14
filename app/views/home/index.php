@@ -14,7 +14,7 @@
     <div class="container pb-5">
         <div class="grid-container">
             <div class="card" style="width: 18rem;">
-                <img src="img/operator.jpg" class="card-img-top" alt="...">
+                <img src="img/operator.webp" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Operator</h5>
                     <p class="card-text">Operator digunakan untuk melakukan operasi aritmatika seperti penjumlahan, pengurangan, pembagian, perkalian, dsb.</p>
@@ -22,7 +22,7 @@
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
-                <img src="img/operator.jpg" class="card-img-top" alt="...">
+                <img src="img/operator.webp" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Operator</h5>
                     <p class="card-text">Operator digunakan untuk melakukan operasi aritmatika seperti penjumlahan, pengurangan, pembagian, perkalian, dsb.</p>
@@ -30,7 +30,7 @@
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
-                <img src="img/operator.jpg" class="card-img-top" alt="...">
+                <img src="img/operator.webp" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Operator</h5>
                     <p class="card-text">Operator digunakan untuk melakukan operasi aritmatika seperti penjumlahan, pengurangan, pembagian, perkalian, dsb.</p>
@@ -38,7 +38,7 @@
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
-                <img src="img/operator.jpg" class="card-img-top" alt="...">
+                <img src="img/operator.webp" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Operator</h5>
                     <p class="card-text">Operator digunakan untuk melakukan operasi aritmatika seperti penjumlahan, pengurangan, pembagian, perkalian, dsb.</p>
@@ -46,7 +46,7 @@
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
-                <img src="img/operator.jpg" class="card-img-top" alt="...">
+                <img src="img/operator.webp" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Operator</h5>
                     <p class="card-text">Operator digunakan untuk melakukan operasi aritmatika seperti penjumlahan, pengurangan, pembagian, perkalian, dsb.</p>

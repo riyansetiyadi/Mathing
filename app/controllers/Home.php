@@ -4,7 +4,7 @@ class Home extends Controller {
     public function index()
     {
         if ( !isset($_SESSION["login"]) ) {
-            header("Location: " . BASEURL . "/login");
+            header("Location: " . BASEURL . "/Login");
             exit;
         }
 
@@ -19,10 +19,10 @@ class Home extends Controller {
     {
         if ( $this->model('User_model')->tambahDataAkun($_POST) > 0 ) {
             Flasher::setFlash('berhasil', 'ditambahkan', 'success');
-            header('Location: ' . BASEURL . '/home');
+            header('Location: ' . BASEURL . '/Home');
         } else {
             Flasher::setFlash('gagal', 'ditambahkan', 'danger');
-            header('Location: ' . BASEURL . '/home');
+            header('Location: ' . BASEURL . '/Home');
         }
     }
     

@@ -25,10 +25,10 @@
                         <a class="nav-link ms-3" href="<?= BASEURL ?>/#About">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ms-3" href="<?= BASEURL ?>/profile/index/<?= $_SESSION["id"] ?>">My Profile</a>
+                        <a class="nav-link ms-3" href="<?= BASEURL ?>/Profile/index/<?= $_SESSION["id"] ?>">My Profile</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ms-3" href="<?= BASEURL; ?>/profile/logout">Logout</a>
+                        <a class="nav-link ms-3" href="<?= BASEURL; ?>/Profile/logout">Logout</a>
                     </li>
                 </ul>
             </div>
