@@ -1,6 +1,6 @@
 <div class="bg-operator">
     <div class="jarak-navigasi"></div>
-    <form action="<?= BASEURL ?>/operator/choiceOpDiff" method="post">
+    <form action="<?= BASEURL ?>/Operator/choiceOpDiff" method="post">
         <div class="card text-dark bg-warning mb-5 ms-auto me-auto text-center" style="width: fit-content;">
             <div class="card-header">Pilih Nilai Tempat</div>
             <div class="card-body">
