@@ -19,7 +19,7 @@
                         <a class="nav-link ms-3 active" aria-current="page" href="<?= BASEURL; ?>">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ms-3" href="<?= BASEURL ?>/operator">Operator</a>
+                        <a class="nav-link ms-3" href="<?= BASEURL ?>/Operator">Operator</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link ms-3" href="<?= BASEURL ?>/#About">About</a>
