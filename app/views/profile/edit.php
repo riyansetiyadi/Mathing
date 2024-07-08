@@ -22,7 +22,7 @@
                     </div>
                 </div>
                 <button type="submit" name="edit" class="btn btn-warning me-3">Edit</button>
-                <a href="<?= BASEURL; ?>/profile/index/<?= $_SESSION["id"] ?>" class="btn btn-info me-3">Kembali</a>
+                <a href="<?= BASEURL; ?>/Profile/index/<?= $_SESSION["id"] ?>" class="btn btn-info me-3">Kembali</a>
             </div>
         </form>
     </div>

@@ -11,7 +11,7 @@ class Operator extends Controller {
 
     public function  choiceOpDiff()
     {
-        header('Location: ' . BASEURL . '/operator/' . $_POST["operator"] . '/' . $_POST["difficulty"]);
+        header('Location: ' . BASEURL . '/Operator/' . $_POST["operator"] . '/' . $_POST["difficulty"]);
         exit;
     }
 

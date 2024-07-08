@@ -1,7 +1,6 @@
 <?php
 
-// define("BASEURL", "http://localhost/Mathing/public");
-define("BASEURL", "https://riyan.6l9.dev");
+define("BASEURL", "http://localhost/Mathing/public_html");
 
 //DB
 define('DB_HOST', 'localhost');
