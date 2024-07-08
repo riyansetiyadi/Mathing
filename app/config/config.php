@@ -1,7 +1,7 @@
 <?php
 
-define("BASEURL", "http://localhost/Mathing/public");
-// define("BASEURL", "https://0mathing.000webhostapp.com");
+// define("BASEURL", "http://localhost/Mathing/public");
+define("BASEURL", "https://riyan.6l9.dev");
 
 //DB
 define('DB_HOST', 'localhost');
